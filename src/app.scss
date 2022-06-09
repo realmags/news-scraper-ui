@@ -1,4 +1,7 @@
 @use "carbon-components-react/scss/components/button";
+@use "carbon-components-react/scss/components/search";
+@use "carbon-components-react/scss/components/link";
+@use "carbon-components-react/scss/components/loading";
 @use "@carbon/styles/scss/grid/flexbox";
 @use "@carbon/styles/scss/type";
 
@@ -6,8 +9,4 @@
 	// @include type.type-style("heading-01");
 	@include type.font-family("mono");
 	@include type.font-weight("semibold");
-}
-
-.content {
-	display: flex;
 }

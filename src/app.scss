@@ -1,0 +1,13 @@
+@use "carbon-components-react/scss/components/button";
+@use "@carbon/styles/scss/grid/flexbox";
+@use "@carbon/styles/scss/type";
+
+.title {
+	// @include type.type-style("heading-01");
+	@include type.font-family("mono");
+	@include type.font-weight("semibold");
+}
+
+.content {
+	display: flex;
+}

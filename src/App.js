@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import { Button } from "carbon-components-react";
+
+import "./app.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className="content cds--css-grid">
+			<h1 className="title cds--css-grid-column cds--col-span-4">
+				Scrape news from Rappler and Manila Bulletin
+			</h1>
+			<Button className="cds--css-grid-column cds--col-span-4">
+				This is mf button
+			</Button>
+		</main>
+	);
 }
 
 export default App;

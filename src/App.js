@@ -15,7 +15,8 @@ function App() {
 	// Effect to fetch search results
 	useEffect(() => {
 		const fetchSearchResults = async () => {
-			const endpoint = "http://localhost:1337/api/news/" + debouncedValue;
+			const endpoint =
+				"https://stormy-meadow-81503.herokuapp.com/api/news/" + debouncedValue;
 
 			try {
 				setIsLoading(() => true);
@@ -40,7 +41,7 @@ function App() {
 	// Effect to fetch data on initial mount
 	useEffect(() => {
 		const fetchData = async () => {
-			const endpoint = "http://localhost:1337/api/news";
+			const endpoint = "https://stormy-meadow-81503.herokuapp.com/api/news";
 
 			try {
 				setIsLoading(() => true);
